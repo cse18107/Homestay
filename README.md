@@ -1,4 +1,4 @@
-# Homestay
+<h1> Homestay</h1>
 
 ### Hi there 👋 ###
 ### This is the wedsite name [Homestay](https://cse18107.github.io/Homestay/)
