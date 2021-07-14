@@ -463,6 +463,11 @@ body {
     height: 70%;
 
 }
+@media screen and (max-width:1731px){
+    .section2 .section .container .right .content{
+        margin-bottom: 60px;
+    } 
+}
 
 .section2 .section .container .right .content h1 {
     font-size: 4rem;
@@ -470,11 +475,32 @@ body {
     letter-spacing: -1px;
     color: white;
 }
+@media screen and (max-width:1847px){
+    .section2 .section .container .right .content h1{
+        font-size: 3.8rem;
+    }
+}
+@media screen and (max-width:1786px){
+    .section2 .section .container .right .content h1{
+        font-size: 3.6rem;
+    }
+}
+@media screen and (max-width:1723px){
+    .section2 .section .container .right .content h1{
+        font-size: 3.4rem;
+    }  
+}
+@media screen and (max-width:1661px){
+    .section2 .section .container .right .content h1{
+        font-size: 3.2rem;
+    } 
+}
 
 .section2 .section .container .right .content .paragraphs {
     width: 100%;
     margin-top: 50px;
     justify-content: space-between;
+    
 }
 
 .section2 .section .container .right .content .paragraphs p span {
@@ -1052,4 +1078,9 @@ body {
     position: absolute;
     top:-200px;
     right:0;
+}
+@media screen and (max-width:1718px){
+    .section5 .container .content .right img{
+        width: 380px;
+    } 
 }
