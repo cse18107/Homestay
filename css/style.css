@@ -495,6 +495,46 @@ body {
         font-size: 3.2rem;
     } 
 }
+@media screen and (max-width:1600px){
+    .section2 .section .container .right .content h1{
+        font-size: 3.1rem;
+    } 
+}
+@media screen and (max-width:1569px){
+    .section2 .section .container .right .content h1{
+        font-size: 3.0rem;
+    } 
+}
+@media screen and (max-width:1538px){
+    .section2 .section .container .right .content h1{
+        font-size: 2.9rem;
+    } 
+}
+@media screen and (max-width:1507px){
+    .section2 .section .container .right .content h1{
+        font-size: 2.8rem;
+    } 
+}
+@media screen and (max-width:1476px){
+    .section2 .section .container .right .content h1{
+        font-size: 2.7rem;
+    } 
+}
+@media screen and (max-width:1445px){
+    .section2 .section .container .right .content h1{
+        font-size: 2.6rem;
+    } 
+}
+@media screen and (max-width:1414px){
+    .section2 .section .container .right .content h1{
+        font-size: 2.5rem;
+    } 
+}
+@media screen and (max-width:1383px){
+    .section2 .section .container .right .content h1{
+        font-size: 2.4rem;
+    } 
+}
 
 .section2 .section .container .right .content .paragraphs {
     width: 100%;
@@ -508,12 +548,23 @@ body {
     text-decoration: underline;
 }
 
-.section2 .section .container .right .content .paragraphs p {
+/* .section2 .section .container .right .content .paragraphs p {
 
     width: 46%;
     color: rgb(187, 187, 187);
+} */
+.section2 .section .container .right .content .paragraphs .left-paragraph{
+    height: 300px;
+    width: 45%;
+    color: rgb(187, 187, 187);
+    overflow: hidden;
 }
-
+.section2 .section .container .right .content .paragraphs .right-paragraph{
+    height: 300px;
+    width:45%;
+    color: rgb(187, 187, 187);
+    overflow: hidden;
+}
 .section2 .section .container .right .content .button {
     margin-top: 60px;
 }
@@ -920,6 +971,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .section4 .sub-section .content .cards-of-hotels .cards {
@@ -931,6 +983,12 @@ body {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 130px;
     column-gap: 70px;
+}
+@media screen and (max-width:1507px){
+    .section4 .sub-section .content .cards-of-hotels .cards{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    } 
 }
 
 .section4 .sub-section .content .cards-of-hotels .cards .card {
